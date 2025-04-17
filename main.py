@@ -40,7 +40,6 @@ from subprocess import getstatusoutput
 from pyrogram.types import Message
 from typing import Union
 import cw, pw
-import port = process.env.PORT || 8080
 
 REGION = os.getenv('REGION', 'Europe')  # Default to 'US' if not set
 
